@@ -19,7 +19,7 @@ const { resolve } = require('path');
 const { rejects } = require('assert');
 app.use(cors({
     credentials: true,
-    origin: 'https://mernfront-cpxe.onrender.com/',
+    origin: 'https://mernfront-seven.vercel.app/',
 }));
 
 app.use(express.json());
