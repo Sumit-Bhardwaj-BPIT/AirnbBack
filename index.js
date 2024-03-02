@@ -19,7 +19,7 @@ const { resolve } = require('path');
 const { rejects } = require('assert');
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000',
+    origin: 'https://mernfront-cpxe.onrender.com/',
 }));
 
 app.use(express.json());
