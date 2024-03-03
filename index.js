@@ -19,7 +19,7 @@ const { resolve } = require('path');
 const { rejects } = require('assert');
 app.use(cors({
     credentials: true,
-    origin: 'https://mernfront-mvvzlz9ty-sumit-bhardwaj-bpits-projects.vercel.app/',
+    origin: 'http://localhost:3000',
 }));
 
 app.use(express.json());
